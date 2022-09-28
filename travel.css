@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+}
+
+.firstpage{
+    
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: right;
+    z-index: 3;
+    align-items: right;
+    padding: 20px;
+    font-size: 0.7rem;
+    
+}
+.header div{
+    padding: 20px;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.778);
+    font-family: 'Poppins', sans-serif;
+    z-index: 3;
+
+}
+.header div:hover{
+    cursor: pointer;
+}
+#marker{
+    position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  top:0px;
+  transition: 0.5s;
+  border-radius: 5px;
+  left:0;
+  width:0px;
+  padding: 2px;
+    z-index: 2;
+}
+
+#aurora{
+    background-repeat: none;
+    object-fit: cover;
+    position:absolute;
+    width: 100%;
+    height: auto;   
+    z-index: -1; 
+    
+}
+#semiaurora{
+    position:absolute;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+#norwaytext{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: rgb(255, 255, 255);
+    z-index: 20;
+    padding: 90px 0;
+    padding-bottom: 200px;
+}
+.n{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 7rem;    
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: rgba(255, 255, 255, 0.884);
+    z-index: 20;
+}
+
+/* -------------SECONDPAGE------------- */
+.secondpage{
+    background-color: #040421;
+    background-image: linear-gradient(200 deg,#00B5BD, #040421) ;
+    /* background-image: url(./assets/auroravid.mp4); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),url(./assets/giphy.gif)); */
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    padding-top: 90px;
+   margin-top: 110px;
+   z-index: 1;
+}
+.secondtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+.secondhead{
+    
+    color: rgb(52, 148, 157);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    z-index: 3;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+}
+.secondmid{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    z-index: 3;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+}
+.secondinfo{
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    z-index: 3;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+.cards{
+    padding:100px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 150px;
+    height: 210px;
+    padding: 30px;
+    background-color: rgba(1, 1, 48, 0.734)  ;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    justify-content: center;
+    align-items: left;
+    border-radius: 10px;
+
+}
+.icon{
+    width: 100%;
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    padding: 20px;
+    background-image: linear-gradient(200deg,rgba(255, 255, 255, 0.373),rgba(255, 255, 255, 0.077));
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.num span{
+    font-size: 3rem;
+}
+.cardinfo{
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.674);
+}
+
+
+
+
+
+/* ------------------------------------------------ */
+
+
+
+
+
+.pine{
+    width: auto;
+    height: 150px;
+    display: flex;
+    opacity: 0.7;
+    overflow-x: hidden;
+    margin-top: 70px;
+}
+.footer{
+    display: flex;
+    background-color: #040421;
+    /* background-image: linear-gradient(#e3e3e3ec 3%,#040421 ); */
+}
+.footlogo{
+    width: 45%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoaur{
+    width: 200px;
+    height: auto;
+    justify-content: center;
+}
+.details1, .details{
+    width: 60%;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    padding: 20px;
+    
+}
+.details1{
+    text-align: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    padding: 20px;
+    padding-top: 30px ;
+}
+.head{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.details a{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    padding: 5px;
+    padding-right: 0;
+}
+
+
+
+.details a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------END FOOTER--------------------------------- */
+.footerend{
+    background-color: #2F3459;
+    background-color: #04042c;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    padding: 20px;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.an, .ang, .ancopy{
+    padding: 0 20px;
+    border-left: 0.7px solid rgba(255, 255, 255, 0.758);
+}
+.ang{
+    padding-left: 450px;
+    border: none;
+}
+.ancopy{
+    padding-left: 50px;
+    border: none;
+}
+
+/* -------------MAIN CARDS----------- */
+.thirdpage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.aCard{
+    display: flex;
+    padding: 50px;
+ height: 100%;
+}
+.bergen{
+    width: 60%;
+    height: auto;
+}
+.bergen2{
+    width: 70%;
+    height: auto;
+    padding-left: 150px;
+}
+.headbergen{
+    font-size: 3rem;
+    color: rgb(8, 24, 74);
+    font-family: 'Poppins', sans-serif;
+    line-height: 3.1rem;
+    margin-bottom: 30px;
+}
+.bergenText{
+    font-size: 0.7rem;
+    color: rgb(8, 24, 74);
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 30%;
+    padding: 30px;
+    padding-left: 80px;
+    
+
+}
+.bergensub{
+    font-size: 0.7rem;
+    color: rgb(8, 24, 74);
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    width: 60%;
+    padding: 30px 0;
+}
