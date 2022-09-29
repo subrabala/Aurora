@@ -192,33 +192,33 @@
     </div>
     
       <script>
-        // let aurora= document.getElementById('aurora');
-        // let semiaurora=document.getElementById('semiaurora');
-        // let norwaytext=document.getElementsByClassName('.n');
+        let aurora= document.getElementById('aurora');
+        let semiaurora=document.getElementById('semiaurora');
+        let norwaytext=document.getElementsByClassName('.n');
 
-        // window.addEventListener('scroll', function(){
-        //   const parallax= document.querySelector('#aurora');
-        //   let scrollPos = window.pageYOffset;
+        window.addEventListener('scroll', function(){
+          const parallax= document.querySelector('#aurora');
+          let scrollPos = window.pageYOffset;
 
-        //   aurora.style.transform= 'translateY(' + scrollPos * .8 + 'px)';
-        //   semiaurora.style.transform= 'translateY(' + scrollPos * .5 + 'px)';
-        //   norwaytext.style.transform= 'translateY(' + scrollPos * .6 + 'px)';
+          aurora.style.transform= 'translateY(' + scrollPos * .8 + 'px)';
+          semiaurora.style.transform= 'translateY(' + scrollPos * .5 + 'px)';
+          norwaytext.style.transform= 'translateY(' + scrollPos * .6 + 'px)';
 
           
-        // })
-        //   var marker = document.querySelector('#marker');
-        //   var items=document.querySelectorAll('.header div');
+        })
+          var marker = document.querySelector('#marker');
+          var items=document.querySelectorAll('.header div');
 
-        //   function indicator(e){
-        //     marker.style.left = e.offsetLeft+"px";
-        //     marker.style.width = e.offsetWidth+"px";
-        //   }
+          function indicator(e){
+            marker.style.left = e.offsetLeft+"px";
+            marker.style.width = e.offsetWidth+"px";
+          }
 
-        //   items.forEach((item)=>{
-        //     item.addEventListener('click',(e)=>{
-        //       indicator(e.target);
-        //     })
-        //   })
+          items.forEach((item)=>{
+            item.addEventListener('click',(e)=>{
+              indicator(e.target);
+            })
+         })
         AOS.init();
         
       </script>
